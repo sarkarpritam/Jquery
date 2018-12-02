@@ -1,0 +1,146 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media  (max-width: 575.98px) {
+    .container{
+        width: 100%;
+    }
+    .input-field{
+        display: none;
+    }
+    .banner-content{
+        height: 100vh;
+    }
+    .navbar-nav{
+        background-color: #ee4035;
+    }
+    .fa-bars{
+        color: #ffc830;
+    }
+    .carousel-item{
+        height: 100vh;
+    }
+    .card-carousel{
+        width: 80%;
+    }
+    .company-news{
+        width: 100%;
+    }
+    .contact-us{
+        width: 100%;
+    }
+    .btn-two{
+        padding: 9px;
+    }
+    .image{
+        margin: 9px 0px;
+    }
+    .contact-area{
+        width: 100%;
+    }
+    .circle{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 150px;
+    }
+    .border-one{
+        width: 95%;
+        margin-top: 50px;
+    }
+    .content{
+        width: 95%;
+    }
+    .contact-us-two{
+        width: 100%;
+        border-left: 2px solid white;
+    }
+    .contact-us{
+        width: 100%;
+         border-right: 2px solid white;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+ 
+	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container{
+        width: 100%;
+    }
+    .input-field{
+        display: inline-block;
+        
+    }
+    .input-field{
+        display: none;
+    }
+    .banner-content:{
+        margin-top: 250px;
+    }
+    .navbar-nav{
+        background-color: #ee4035;
+    }
+    .fa-bars{
+        color: #ffc830;
+    }
+    .banner-area{
+        height: 100vh;
+    }
+    .card-carousel{
+        width: 95%;
+    }
+    .company-news{
+        width: 100%;
+    }
+    .contact-us{
+        width: 100%;
+    }
+
+    .input-field-two{
+        width: 100%;
+    }
+ 
+    .content{
+        width: 100%;
+    }
+    .fonts{
+        float: right;
+    }
+    .notify-content{
+        margin-bottom: 25px;
+    }
+    .image{
+        width: 95%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+      .input-field-two{
+        width: 100%;
+    }
+ 
+}
+
+@media (min-width: 1200px) and (max-width: 1280px) {}
+
+@media (min-width: 1281px) and (max-width: 1366px) {}
+
+@media (min-width: 1367px) and (max-width: 1440px) {}
+
+@media (min-width: 1441px) and (max-width: 1600px) {}
+
+@media (min-width: 1601px) and (max-width: 1680px) {}
+
+@media (min-width: 1681px) and (max-width: 1920px) {}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
